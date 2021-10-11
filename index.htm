@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Angora</title>
+</head>
+
+<body id='body' class='hidden'>
+  <div id='spinner'>
+    <div class="sk-cube-grid">
+      <div class="sk-cube sk-cube1"></div>
+      <div class="sk-cube sk-cube2"></div>
+      <div class="sk-cube sk-cube3"></div>
+      <div class="sk-cube sk-cube4"></div>
+      <div class="sk-cube sk-cube5"></div>
+      <div class="sk-cube sk-cube6"></div>
+      <div class="sk-cube sk-cube7"></div>
+      <div class="sk-cube sk-cube8"></div>
+      <div class="sk-cube sk-cube9"></div>
+    </div>
+  </div>
+
+  <div class="cogs-wrapper position-fixed d-flex justify-content-center align-items-center">
+    <i class="fas fa-cogs"></i>
+    <input type="color" id="color">
+  </div>
+
+  <!-- Start Header -->
+  <section class="header">
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light w-100 text-dark">
+      <div class="container">
+
+        <a class="navbar-brand" href="#"><img src="images/logo-red.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto py-lg-2">
+            <li class="nav-item active">
+              <a class="nav-link active" href="#carouselExampleControls">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutUs">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ourTeam">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <div class="nav-icon-holder pl-3">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active position-relative">
+          <div class="title-wrapper position-absolute">
+            <h2>We build <br /> great brands.</h2>
+          </div>
+        </div>
+        <div class="carousel-item position-relative">
+          <div class="title-wrapper position-absolute">
+            <h2>Focused <br> on strategy..</h2>
+
+          </div>
+        </div>
+        <div class="carousel-item position-relative">
+          <div class="title-wrapper position-absolute">
+            <h2>Advanced in <br> digital works.</h2>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true">
+          <i class="fas fa-chevron-left"></i>
+        </span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true">
+          <i class="fas fa-chevron-right"></i>
+        </span>
+        <span class="sr-only">Next</span>
+      </a>
+    </section>
+
+    <div class='bottom'></div>
+  </section>
+
+  <!-- Start About Us -->
+  <section id="aboutUs" class="about-us py-5 my-5">
+    <div class="container">
+      <div class='title-holder line-hover text-center  mb-5'>
+        <h2>About Us</h2>
+        <div class='line mx-auto my-3'></div>
+        <p>Pellentesque elementum libero enim, eget gravida nunc laoreet et. Nullam ac enim auctor, fringilla risus at,
+          imperdiet turpis. Pellentesque elementum libero enim.</p>
+      </div>
+
+
+      <div class="row">
+        <div class="about-us-title col-md-7">
+          <p>Pellentesque vel elit egestas, pretium est ac, convallis orci. Vivamus sem nisl, tristique vel fringilla
+            vitae, efficitur at eros. Duis aliquet aliquet pharetra. Suspendisse bibendum erat quis gravida pulvinar.
+            Phasellus vel eros porta,
+            blandit dui ac, viverra felis.</p>
+          <p>Nunc placerat iaculis pulvinar. Nullam auctor mauris sed urna posuere volutpat. Mauris ut dui sit amet elit
+            fermentum fermentum. Fusce tincidunt diam at bibendum porta.</p>
+          <p>Aliquam nunc felis, sagittis eu purus non, interdum vehicula urna. Vivamus congue diam sapien, eu
+            pellentesque ipsum ultricies quis.</p>
+        </div>
+
+        <div class="about-us-progress col-md-5">
+          <div class="title d-flex w-80 justify-content-between pb-1">
+            <h6>Branding</h6>
+            <p>80%</p>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+              aria-valuemax="100"></div>
+          </div>
+
+          <div class="title d-flex w-95 justify-content-between pb-1">
+            <h6>Web Design </h6>
+            <p>95%</p>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
+              aria-valuemax="100"></div>
+          </div>
+
+          <div class="title d-flex w-85 justify-content-between pb-1">
+            <h6>Graphic Design</h6>
+            <p>85%</p>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+              aria-valuemax="100"></div>
+          </div>
+
+          <div class="title d-flex w-70 justify-content-between pb-1">
+            <h6>Development</h6>
+            <p>70%</p>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+              aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Start Our Team -->
+
+  <section id="ourTeam" class="our-team py-5">
+    <div class="container">
+      <div class='title-holder line-hover text-center mb-5'>
+        <h2>Our Team</h2>
+        <div class='line mx-auto my-3'></div>
+        <p>Vestibulum ante ipsum primis in faucibus orci. Morbi tincidunt urna imperdiet tincidunt rhoncus. Sed mollis
+          ligula non massa aliquam faucibus.</p>
+      </div>
+
+      <div class="row">
+        <div class="img-holder col-lg-3 col-md-6 px-3 text-center">
+          <div class="img-wrapper position-relative">
+            <div class="layer d-flex justify-content-center align-items-center position-absolute">
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-linkedin-in"></i>
+              <i class="fas fa-globe"></i>
+            </div>
+            <img src="images/member-1.jpg" alt="member-1">
+          </div>
+          <h4>Michael Broad</h4>
+          <p>Wep Designer</p>
+        </div>
+
+        <div class="img-holder col-lg-3 col-md-6 text-center">
+          <div class="img-wrapper position-relative">
+            <div class="layer d-flex justify-content-center align-items-center position-absolute">
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-linkedin-in"></i>
+              <i class="fas fa-globe"></i>
+            </div>
+            <img src="images/member-2.jpg" alt="member-1">
+          </div>
+          <h4>Jeannette Crow</h4>
+          <p>CEO Founder</p>
+        </div>
+
+        <div class="img-holder col-lg-3 col-md-6 text-center">
+          <div class="img-wrapper position-relative">
+            <div class="layer d-flex justify-content-center align-items-center position-absolute">
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-linkedin-in"></i>
+              <i class="fas fa-globe"></i>
+            </div>
+            <img src="images/member-3.jpg" alt="member-1">
+          </div>
+          <h4>Martin Lowrence</h4>
+          <p>App Developer</p>
+        </div>
+
+        <div class="img-holder col-lg-3 col-md-6 text-center">
+          <div class="img-wrapper position-relative">
+            <div class="layer d-flex justify-content-center align-items-center position-absolute">
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-linkedin-in"></i>
+              <i class="fas fa-globe"></i>
+            </div>
+            <img src="images/member-4.jpg" alt="member-1">
+          </div>
+          <h4>Isabelaa Dowson</h4>
+          <p>Creative Director</p>
+        </div>
+      </div>
+
+      <div class="contact-us mt-5 py-5 text-center d-md-flex justify-content-sm-around">
+        <h3>Do you have any ideas?</h3>
+        <div class='button-wrapper mt-md-0 mt-3'>
+          <a href="#contact" class="btn text-light">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Start Contact Us -->
+
+
+  <!-- Start Services -->
+  <section id="services" class="services py-5 bg-light">
+    <div class="container py-5">
+      <div class='title-holder line-hover text-center mb-5'>
+        <h2>Services</h2>
+        <div class='line mx-auto my-3'></div>
+        <p>Nullam ac enim auctor, fringilla risus at, imperdiet turpis. Pellentesque elementum libero enim, eget gravida
+          nunc laoreet et. Pellentesque elementum libero enim.</p>
+      </div>
+
+      <div class="row">
+        <div class="services-box mutual col-lg-4 col-md-6 d-flex">
+          <div class="icon-wrapper">
+            <i class="fas fa-laptop"></i>
+          </div>
+          <div class="content-wrapper">
+            <h3>Responsive Layout</h3>
+            <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+            </p>
+          </div>
+        </div>
+
+        <div class="services-box mutual col-lg-4 col-md-6 d-flex">
+          <div class="icon-wrapper">
+            <i class="fas fa-pencil-ruler"></i>
+          </div>
+          <div class="content-wrapper">
+            <h3>Modern Design</h3>
+            <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+            </p>
+          </div>
+        </div>
+
+        <div class="services-box mutual col-lg-4 col-md-6 mr-lg-0 mr-md-5 mr-sm-0 d-flex">
+          <div class="icon-wrapper">
+            <i class="far fa-flag"></i>
+          </div>
+          <div class="content-wrapper">
+            <h3>Font Awesome Icons</h3>
+            <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+            </p>
+          </div>
+        </div>
+
+        <div class="services-box mutual col-lg-4 col-md-6 d-flex">
+          <div class="icon-wrapper">
+            <i class="far fa-address-card"></i>
+          </div>
+          <div class="content-wrapper">
+            <h3>Ajax Portfolio</h3>
+            <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+            </p>
+          </div>
+        </div>
+
+        <div class="services-box mutual col-lg-4 col-md-6 d-flex">
+          <div class="icon-wrapper">
+            <i class="fas fa-cog"></i>
+          </div>
+          <div class="content-wrapper">
+            <h3>Color Options</h3>
+            <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+            </p>
+          </div>
+        </div>
+
+        <div class="services-box mutual col-lg-4 col-md-6 mr-lg-0 mr-md-5 mr-sm-0 d-flex">
+          <div class="icon-wrapper">
+            <i class="fas fa-headset"></i>
+          </div>
+          <div class="content-wrapper">
+            <h3>Audio Support</h3>
+            <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+            </p>
+          </div>
+        </div>
+
+        <div class="services-box mutual col-lg-4 col-md-6 d-flex">
+          <div class="icon-wrapper">
+            <i class="far fa-file-alt"></i>
+          </div>
+          <div class="content-wrapper">
+            <h3>Well Documented</h3>
+            <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+            </p>
+          </div>
+        </div>
+
+        <div class="services-box mutual col-lg-4 col-md-6 d-flex">
+          <div class="icon-wrapper">
+            <i class="fas fa-video"></i>
+          </div>
+          <div class="content-wrapper">
+            <h3>Background Videos</h3>
+            <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+            </p>
+          </div>
+        </div>
+
+        <div class="services-box mutual col-lg-4 col-md-6 mr-lg-0 mr-md-5 mr-sm-0 d-flex">
+          <div class="icon-wrapper">
+            <i class="fas fa-sliders-h fa-rotate-90"></i>
+          </div>
+          <div class="content-wrapper">
+            <h3>Intro Slider</h3>
+            <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Start Client Reviews -->
+
+  <section id="blog" class="client-reviews py-5">
+    <div class="container">
+      <div class='title-holder line-hover text-center m-auto  mb-lg-5'>
+        <h2>Client Reviews</h2>
+        <div class='line mx-auto my-3'></div>
+        <p>Donec purus est, tincidunt eu sodales quis, vehicula quis enim. Morbi dapibus, tellus a gravida faucibus,
+          elit ipsum sollicitudin risus, id ultricies arcu neque eget velit.</p>
+      </div>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators position-static row">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active col-auto">
+            <img src="images/client-1.png" alt="">
+          </li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1" class="col-auto">
+            <img src="images/client-2.png" alt="">
+          </li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2" class="col-auto">
+            <img src="images/client-3.png" alt="">
+          </li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3" class="col-auto">
+            <img src="images/client-4.png" alt="">
+          </li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4" class="col-auto">
+            <img src="images/client-5.png" alt="">
+          </li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5" class="col-auto">
+            <img src="images/client-6.png" alt="">
+          </li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="6" class="col-auto">
+            <img src="images/client-7.png" alt="">
+          </li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="7" class="col-auto">
+            <img src="images/client-8.png" alt="">
+          </li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="8" class="col-auto">
+            <img src="images/client-9.png" alt="">
+          </li>
+        </ol>
+
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active">
+            <h5 class='mb-0'>Martin Jack</h5>
+            <span class='text-muted'>Form Hooli</span>
+            <p class='w-50 mx-auto lead p-3'>
+              <i class="fas fa-quote-left"></i>
+              Aenean sit amet est oric. Aenean at nisi eget nilla Lobortis Commodo. Nan eget Lorem in ex aliquam
+              dapibus.
+              <i class="fas fa-quote-right"></i>
+            </p>
+          </div>
+          <div class="carousel-item">
+            <h5 class='mb-0'>David Dowsy</h5>
+            <span class='text-muted'>Form Globex</span>
+            <p class='w-50 mx-auto lead p-3'>
+              <i class="fas fa-quote-left"></i>
+              Suspendisse non vwlit lacus. Mauris effictur lorem a justi semper, ut suscipit ligula malesuada. Donec dui
+              nulla.
+              <i class="fas fa-quote-right"></i>
+            </p>
+          </div>
+          <div class="carousel-item">
+            <h5 class='mb-0'>Dogals Kosta</h5>
+            <span class='text-muted'>Form Soylent</span>
+            <p class='w-50 mx-auto lead p-3'>
+              <i class="fas fa-quote-left"></i>
+              Vestibulum lectus massa, volutpat ut teitique nec, volutpat in turpis. in vehicule tempus odio. Nullam
+              enim ligula.
+              <i class="fas fa-quote-right"></i>
+            </p>
+          </div>
+          <div class="carousel-item">
+            <h5 class='mb-0'>Anthony Lee</h5>
+            <span class='text-muted'>Form Initech</span>
+            <p class='w-50 mx-auto lead p-3'>
+              <i class="fas fa-quote-left"></i>
+              Nunc accumsan finibus sollicitudin. Integer malesuada purus sapien, Sit amet volutpat sem fringilla ut.
+              porin viverra scelerisque mollis.
+              <i class="fas fa-quote-right"></i>
+            </p>
+          </div>
+          <div class="carousel-item">
+            <h5 class='mb-0'>Jane Dorisk</h5>
+            <span class='text-muted'>Form Acme</span>
+            <p class='w-50 mx-auto lead p-3'>
+              <i class="fas fa-quote-left"></i>
+              Fusce euismod eget nulla a tempus. Pellentesque in vairus meturs. Fusce iaculis cursus ante, vel
+              vestibulum dui sagittis vitae.
+              <i class="fas fa-quote-right"></i>
+            </p>
+          </div>
+          <div class="carousel-item">
+            <h5 class='mb-0'>Jonathon Doe</h5>
+            <span class='text-muted'>Form Umbrella</span>
+            <p class='w-50 mx-auto lead p-3'>
+              <i class="fas fa-quote-left"></i>
+              Cars et est eu tellus fringilla congue. Nunc efficitur libero ut nunc volutpat porttitor. Aliquam in justo
+              at neque.
+              <i class="fas fa-quote-right"></i>
+            </p>
+          </div>
+          <div class="carousel-item">
+            <h5 class='mb-0'>Shane Catson</h5>
+            <span class='text-muted'>Form Massive</span>
+            <p class='w-50 mx-auto lead p-3'>
+              <i class="fas fa-quote-left"></i>
+              Aenean sit amet est oric. Aenean at nisi eget nilla Lobortis Commodo. Nan eget Lorem in ex aliquam
+              dapibus.
+              <i class="fas fa-quote-right"></i>
+            </p>
+          </div>
+          <div class="carousel-item">
+            <h5 class='mb-0'>Hugh Tace</h5>
+            <span class='text-muted'>Form Caoital</span>
+            <p class='w-50 mx-auto lead p-3'>
+              <i class="fas fa-quote-left"></i>
+              Cars et est eu tellus fringilla congue. Nunc efficitur libero ut nunc volutpat porttitor. Aliquam in justo
+              at neque.
+              <i class="fas fa-quote-right"></i>
+            </p>
+          </div>
+          <div class="carousel-item">
+            <h5 class='mb-0'>chris Wort</h5>
+            <span class='text-muted'>Form Sylhost</span>
+            <p class='w-50 mx-auto lead p-3'>
+              <i class="fas fa-quote-left"></i>
+              Nunc accumsan finibus sollicitudin. Integer malesuada purus sapien, Sit amet volutpat sem fringilla ut.
+              porin viverra scelerisque mollis.
+              <i class="fas fa-quote-right"></i>
+            </p>
+          </div>
+        </div>
+
+
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Start Get In Touche -->
+  <section id="contact" class="get-in-touche py-5 bg-light">
+    <div class="container py-5">
+      <div class='title-holder line-hover text-center mb-5'>
+        <h2>Get In Touche</h2>
+        <div class='line mx-auto my-3'></div>
+        <p>Mauris at tempus mi, ut iaculis dui. Integer laoreet mattis justo nec pretium. Ut nibh elit, fermentum vel
+          hendrerit vel, dictum nec velit. Morbi volutpat suscipit.</p>
+      </div>
+
+      <div class="row">
+        <div class="get-in-touche-title mutual col-md-6">
+          <h3>Get answers and advices from professional consultants.</h3>
+          <div class="icon-holder mutual d-flex">
+            <div class="icon-wrapper">
+              <i class="far fa-map"></i>
+            </div>
+            <div class="content-wrapper w-100">
+              <h3>Address</h3>
+              <p>1650 Lombard Street, San Francisco, CA 94123</p>
+              <hr>
+            </div>
+
+          </div>
+
+          <div class="icon-holder mutual d-flex">
+            <div class="icon-wrapper">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <div class="content-wrapper w-100">
+              <h3>Phone</h3>
+              <p>+1 (415) 876-3250 / +1 (415) 876-3251</p>
+              <hr>
+            </div>
+
+          </div>
+
+          <div class="icon-holder mutual d-flex">
+            <div class="icon-wrapper">
+              <i class="far fa-envelope"></i>
+            </div>
+            <div class="content-wrapper">
+              <h3>Say Hello</h3>
+              <p>[email protected]</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <form class='col-md-6'>
+          <div class="form-row">
+            <div class="form-group col-12">
+              <input type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="form-group col-12">
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control " id="Phone" placeholder="Phone">
+          </div>
+          <div class="form-group">
+
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-2 px-md-4 py-md-2">
+            <i class="fab fa-telegram-plane"></i>
+            Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Start links -->
+  <div class="links position-relative mt-5 py-5">
+    <div class="container">
+      <div class="row">
+        <div class="img-container col-12 text-center mb-5">
+          <img src="images/icon.png" alt="" class='icon-image m-auto'>
+        </div>
+        <div class="links-col col-lg-3 col-md-6">
+          <h5>Contact Info</h5>
+          <p>1650 Lombard Street,
+            <br /> San Francisco, CA 94123
+          </p>
+          <p>
+            +1 (415) 876-3250 <br />
+            <a href="#body">[eamail protected]</a>
+          </p>
+        </div>
+        <div class="links-col col-lg-3 col-md-6">
+          <h5>Useful Links</h5>
+          <ul class="links-list p-0">
+            <li class="links-item">
+              <a href="#body" class="links-link">Support</a>
+            </li>
+            <li class="links-item">
+              <a href="#body" class="links-link">Privacy Policy</a>
+            </li>
+            <li class="links-item">
+              <a href="#body" class="links-link">Terms & Conditions</a>
+            </li>
+            <li class="links-item">
+              <a href="#body" class="links-link">Affiliate Program</a>
+            </li>
+            <li class="links-item">
+              <a href="#body" class="links-link">Careers</a>
+            </li>
+          </ul>
+        </div>
+        <div class="links-col col-lg-3 col-md-6 col-sm-12">
+          <h5>Recent Posts</h5>
+          <ul class="links-list p-0">
+            <li class="links-item">
+              <a href="#body" class="links-link">Sunset In Venice</a>
+            </li>
+            <li class="links-item">
+              <a href="#body" class="links-link">Aerial View Of Village</a>
+            </li>
+            <li class="links-item">
+              <a href="#body" class="links-link">Light Concreate City</a>
+            </li>
+            <li class="links-item">
+              <a href="#body" class="links-link">The little Gohst</a>
+            </li>
+            <li class="links-item">
+              <a href="#body" class="links-link">Royal Oata ft. Waldo</a>
+            </li>
+          </ul>
+        </div>
+        <div class="links-col popular-tags col-lg-3 col-md-6 col-sm-12">
+          <h5>Popular Tags</h5>
+          <ul class="tags-list p-0 row">
+            <li class="tags-item col-auto">
+              <a href="#body" class="tags-link">HTML5</a>
+            </li>
+            <li class="tags-item col-auto">
+              <a href="#body" class="tags-link">CSS3</a>
+            </li>
+            <li class="tags-item col-auto">
+              <a href="#body" class="tags-link">jQuery</a>
+            </li>
+            <li class="tags-item col-auto">
+              <a href="#body" class="tags-link">UX / UI</a>
+            </li>
+            <li class="tags-item col-auto">
+              <a href="#body" class="tags-link">Web</a>
+            </li>
+            <li class="tags-item col-auto">
+              <a href="#body" class="tags-link">Graphic</a>
+            </li>
+            <li class="tags-item col-auto">
+              <a href="#body" class="tags-link">Design</a>
+            </li>
+            <li class="tags-item col-auto">
+              <a href="#body" class="tags-link">Development</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="links-arrow rounded-circle position-absolute d-flex justify-content-center align-items-center">
+      <a href="#body" class='w-100 h-100'>
+        <i class="fas fa-chevron-up"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Start Footer -->
+
+  <footer class="footer p-4">
+    <div class="container">
+      <div class="footer-copy-right d-md-flex justify-content-md-between text-center align-items-center">
+        <div class="icon-holder mb-md-0 mb-3">
+          <a href="#body">
+            <i class="fab fa-twitter"></i>
+          </a>
+
+          <a href="#body">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+
+          <a href="#body">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <a href="#body">
+            <i class="fab fa-pinterest"></i>
+          </a>
+
+          <a href="#body">
+            <i class="fas fa-globe"></i>
+          </a>
+
+        </div>
+        <div class="copy-right">
+          <p>Copyright © 2020
+            <a href="#body">Angora</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- JAVA SCRIPT -->
+  <script src='js/jquery-3.6.0.js'></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src='js/index.js'></script>
+</body>
+
+</html>
